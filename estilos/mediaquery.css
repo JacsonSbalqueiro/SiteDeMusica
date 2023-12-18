@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+/*para telas acima de 768px*/
+
+@media  screen and (min-width: 800px) {
+    span#icone{
+        display: none;
+    }
+    menu{
+        display: block;
+    }
+    menu > ul > li{
+        display: inline-block;
+        margin-top: 4px;
+    }
+}
