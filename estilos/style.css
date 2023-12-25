@@ -14,7 +14,7 @@ body{
 }
 
 header{
-    background-image:linear-gradient(to bottom, rgb(100, 100, 100) 10%, silver );
+    background-image:linear-gradient(to bottom, rgb(3, 94, 136) 10%, silver );
     height: 100px;
     box-shadow: 5px 1px 12px black;
     margin-bottom: 130px;
