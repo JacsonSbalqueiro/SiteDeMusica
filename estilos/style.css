@@ -38,14 +38,14 @@ main {
     border-radius: 15px;
 }
 
-main > article > h2 {
+main > section > h2 {
     font-size: 1.7em;
     padding: 10px;
     padding-top: 20px;
     text-align: center;
 }
 
-main > article > p{
+main > section > p{
     font-size: 1.5em;
     padding: 10px;
     text-indent: 15px;
@@ -103,3 +103,22 @@ footer > p{
     color: white;
     font-size: 1.2em;
 }
+
+/*para telas acima de 800px*/
+
+@media  screen and (min-width: 800px) {
+    span#icone{
+        display: none;
+    }
+    menu{
+        display: block; 
+        padding-left: 15px;
+    }
+    menu > ul > li{
+        display: inline-block;
+        margin-top: 8px;
+        height: 18px;
+        padding: 5px;
+        text-align: center;
+    }
+} 

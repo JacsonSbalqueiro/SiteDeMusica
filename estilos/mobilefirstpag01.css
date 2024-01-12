@@ -30,13 +30,13 @@ main{
     margin: auto;
 }
 
-main > article > iframe{
+main > section > iframe{
     width: 300px;
     height: 150px;
 
 }
 
-main > article > h2{
+main > section > h2{
     text-align: center;
     padding: 30px;
 }
@@ -59,13 +59,13 @@ footer{
         transform: translate(-50, -50);
     }
 
-    main > article > iframe{
+    main > section > iframe{
         width: 450px;
         height: 225px;
         margin-top: 60px;
     }
 
-    main > article > h2{
+    main > section > h2{
         display: none;
     }
 
